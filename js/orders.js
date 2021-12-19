@@ -1,0 +1,20 @@
+const Orders =[
+    {
+        productName:'Mouse',
+        productNumber:'85631',
+        paymentStatus:'andamento',
+        shipping:'Pendente'
+    },
+    {
+        productName:'Teclado',
+        productNumber:'85632',
+        paymentStatus:'dd/mm/aaaa',
+        shipping:'Pendente'
+    },
+    {
+        productName:'Monitor',
+        productNumber:'85633',
+        paymentStatus:'dd/mm/aaaa',
+        shipping:'Pendente'
+    },
+]

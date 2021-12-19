@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/pg_usuario.css">
+    <link rel="stylesheet" href="style/estilo_redeSocial.css">
+    <script src="https://kit.fontawesome.com/89aa69e63f.js" crossorigin="anonymous"></script>
+    <meta name="author" content="Grupo013">
+    <meta name="keywods" content="BemTeVi, Demoday, Proa">
+    <meta name="description" content="Projeto demoday, feito pela equipe 13 do instituto Proa">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="style/reviews.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7dcd6419da.js" crossorigin="anonymous"></script>
+    <title>Loja Obama </title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                Bem - Te - vi
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Faça sua pesquisa">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post"><a href="redeSocial_loja.html"
+                        target="_blanck">Home</a></label>
+                <div class="profile-photo pointer">
+                    <a href="pagina_usuario.html"><img src="img/jaja.jpeg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-header">
+            <section class="cover-image-section">
+                <header class="cover-header-site">
+
+                </header>
+            </section>
+
+            <div class="profile-img">
+                <a href="pagina_usuario.html"><img src="./img/jaja.jpeg"></a>
+
+            </div>
+
+            <div class="profile-nav-info">
+                <h3 class="user-name">Loja do Obama Tech</h3>
+                <div class="address">
+                    <p class="state">Osasco,</p>
+                    <span class="country">
+                        Brasil.
+                    </span>
+                </div>
+            </div>
+            <div class="profile-option">
+                <div class="notification">
+                    <i class="fas fa-camera"></i>
+                </div>
+            </div>
+        </div>
+        <div class="main-bd">
+            <div class="left-side">
+                <div class="profile-side">
+                    <p class="mobile-no">
+                        <i class="fa fa-phone"></i>
+                        +55 11 98342-9836
+                    </p>
+                    <p class="user-mail">
+                        <i class="fa fa-envelope"></i>
+                        LojaObama@email.com
+                    </p>
+                    <div class="user-bio">
+                        <h3>Bio</h3>
+                        <p class="bio">
+                            Você tem certeza que não quer comprar o nossos produtos? Já que hoje é no amor, use o cupom
+                            <strong>CAMISA10</strong> e ganhe 10% de desconto em toda nossa loja!
+                        </p>
+                    </div>
+                    <div class="profile-btn">
+                        <button class="chatbtn">
+                            <i class="fa fa-user-edit"></i>
+                            Editar Perfil
+                        </button>
+                        <button class="createbtn">
+                            <i class="fa fa-plus"></i>
+                            Criar Conteúdo
+                        </button>
+                    </div>
+                    <div class="user-rating">
+
+                        <div class="liked-by">
+                            <span><img src="img/profile-10.jpg"></span>
+                            <span><img src="img/profile-4.jpg"></span>
+                            <span><img src="img/profile-15.jpg"></span>
+                            <span><img src="img/profile-10.jpg"></span>
+                            <span><img src="img/profile-16.jpg"></span>
+                            <span><img src="img/profile-12.jpg"></span>
+                            <span><img src="img/profile-11.jpg"></span>
+                            <span><img src="img/profile-9.jpg"></span>
+                            <p><b>119 Seguidores</b> </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="nav">
+                    <ul>
+                        <li onclick="tabs(0)" class="user-post active">Postagens</li>
+                        <li onclick="tabs(1)" class="user-post-review">Reviews</li>
+                        <li onclick="tabs(2)" class="user-post-setting">Configurações</li>
+                    </ul>
+                </div>
+                <div class="profile-body">
+                    <div class="profile-post tab">
+                        <div class="feeds">
+                            <!------------------- FEED 1 --------------------->
+                            <div class="feed">
+                                <div class="head">
+                                    <div class="user">
+                                        <div class="profile-photo">
+                                            <img src="img/jaja.jpeg">
+                                        </div>
+                                        <div class="ingo">
+                                            <h3>Loja Obama Tech</h3>
+                                            <small>Osasco, 15 MINUTOS ATRÁS</small>
+                                        </div>
+                                    </div>
+                                    <span class="edit">
+                                        <i class="uil uil-ellipsis-h"></i>
+                                    </span>
+                                </div>
+
+                                <div class="photo">
+                                    <img src="imgDash/promoNote.png">
+                                </div>
+
+                                <div class="action-buttons">
+                                    <div class="interaction-buttons">
+                                        <span><i class="uil uil-heart pointer "></i></span>
+                                        <span><i class="uil uil-comment-dots pointer "></i></span>
+                                        <span><i class="uil uil-share-alt pointer"></i></span>
+                                    </div>
+                                    <div class="bookmark">
+                                        <span><i class="uil uil-bookmark-full"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="liked-by">
+                                    <span><img src="img/profile-10.jpg"></span>
+                                    <span><img src="img/profile-4.jpg"></span>
+                                    <span><img src="img/profile-15.jpg"></span>
+                                    <p>Curtiu <b>Ernest Achiever</b> e <b> outras 2,323</b>pessoas </p>
+                                </div>
+
+                                <div class="caption">
+                                    <p><b>Lana Rose</b> Lorem ipsum dolor sit quisquam eius. <span
+                                            class="harsh-tag">#lifestyle</span></p>
+                                </div>
+                                <div class="comments text-muted"> 277 comentarios</div>
+                            </div>
+
+                            <div class="feed">
+                                <div class="head">
+                                    <div class="user">
+                                        <div class="profile-photo">
+                                            <img src="img/jaja.jpeg">
+                                        </div>
+                                        <div class="ingo">
+                                            <h3>Loja Obama Tech</h3>
+                                            <small>Osasco
+                                                , 2 DIAS ATRÁS</small>
+                                        </div>
+                                    </div>
+                                    <span class="edit">
+                                        <i class="uil uil-ellipsis-h"></i>
+                                    </span>
+                                </div>
+
+                                <div class="photo">
+                                    <img src="imgDash/promoCell.jpg">
+                                </div>
+
+                                <div class="action-buttons">
+                                    <div class="interaction-buttons">
+                                        <span><i class="uil uil-heart pointer "></i></span>
+                                        <span><i class="uil uil-comment-dots pointer"></i></span>
+                                        <span><i class="uil uil-share-alt pointer"></i></span>
+                                    </div>
+                                    <div class="bookmark">
+                                        <span><i class="uil uil-bookmark-full"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="liked-by">
+                                    <span><img src="img/profile-10.jpg"></span>
+                                    <span><img src="img/profile-4.jpg"></span>
+                                    <span><img src="img/profile-15.jpg"></span>
+                                    <p>Curtiu <b>Ernest Achiever</b> e <b>outras 2,323</b>pessoas</p>
+                                </div>
+
+                                <div class="caption">
+                                    <p><b>Lana Rose</b> Lorem ipsum dolor sit quisquam eius. <span
+                                            class="harsh-tag">#lifestyle</span></p>
+                                </div>
+                                <div class="comments text-muted">3,473 comentariios</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Reviews -->
+                    <div class="profile-reviews tab">
+
+                        <div class="testimonials">
+
+                            <!-- cabecalho -->
+                            <div class="testimonial-heading">
+                                <span>comentários dos clientes</span>
+                                <h1>O que seus clientes dizem sobre sua loja:</h1>
+                            </div>
+
+                        </div>
+
+                        <!-- caixas de depoimento -->
+
+                        <div class="testimonial-box-container">
+                            <!-- comentario 1 -->
+                            <div class="testimonial-box">
+
+
+                                <div class="box-top">
+                                    <!-- perfio -->
+                                    <div class="cliente">
+                                        <!-- img -->
+                                        <div class="cliente-img">
+                                            <img src="/imgDash/profWes.jpeg">
+                                        </div>
+                                        <!-- nome usuario -->
+                                        <div class="name-user">
+                                            <strong>Prof Wesley</strong>
+                                            <span>@BigBoss_Proa</span>
+                                        </div>
+                                    </div>
+                                    <!-- reviews -->
+                                    <div class="reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+
+                                <!-- comentario -->
+                                <div class="cliente-comment">
+                                   Maravilhoso atendimento! Sempre passava em frente a loja, mas nunca entrei. Após usar o Bem-te-vi que frequentei o lugar.  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- caixas de depoimento -->
+
+                        <div class="testimonial-box-container">
+                            <!-- comentario 2 -->
+                            <div class="testimonial-box">
+
+
+                                <div class="box-top">
+                                    <!-- perfio -->
+                                    <div class="cliente">
+                                        <!-- img -->
+                                        <div class="cliente-img">
+                                            <img src="/imgDash/profRoro.jpeg">
+                                        </div>
+                                        <!-- nome usuario -->
+                                        <div class="name-user">
+                                            <strong>Prof Rô</strong>
+                                            <span>@AfazTudo_Proa</span>
+                                        </div>
+                                    </div>
+                                    <!-- reviews -->
+                                    <div class="reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+
+                                <!-- comentario -->
+                                <div class="cliente-comment">
+                                   Simplemente a melhor loja de informática do Mundo!! Diria até mesmo que é a melhor do Brasil. 
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- caixas de depoimento -->
+
+                        <div class="testimonial-box-container">
+                            <!-- comentario 1 -->
+                            <div class="testimonial-box">
+
+
+                                <div class="box-top">
+                                    <!-- perfio -->
+                                    <div class="cliente">
+                                        <!-- img -->
+                                        <div class="cliente-img">
+                                            <img src="/imgDash/profMari.jpg">
+                                        </div>
+                                        <!-- nome usuario -->
+                                        <div class="name-user">
+                                            <strong>Prof Mari Mari</strong>
+                                            <span>@Internacional_Proa</span>
+                                        </div>
+                                    </div>
+                                    <!-- reviews -->
+                                    <div class="reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+
+                                <!-- comentario -->
+                                <div class="cliente-comment">
+                                   Os produtos de alta qualidade. Entregues em Portugal em menos de 10 dias! 
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                    <!--====================== END OF RIGHT ==========================-->
+                </div>
+                <div class="profile-setting tab">
+                    <div class="sidebar">
+                        <a class="menu-item active">
+                            <span><i class="fas fa-key"></i></span>
+                            <h3>Configurações de senhas</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="fas fa-user-edit"></i></span>
+                            <h3>Trocar nome</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="fas fa-user-tie"></i></span>
+                            <h3>Gerenciamento de assinatura</h3>
+                        </a>
+                        <a class="menu-item" id="messages-notification">
+                            <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span>
+                            <h3>Mensagem</h3>
+                        </a>
+                        <a class="menu-item" id="theme">
+                            <span><i class="uil uil-palette"></i></span>
+                            <h3>Tema</h3>
+                        </a>
+
+                    </div>
+
+                    <label for="create-post" class="btn btn-primary">Sair da conta</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div> 
+
+
+
+
+    <!--================================================ THEME CUSTOMIZATION =============================================-->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customização</h2>
+            <p class="text-muted">Mude a fonte, cor e muito mais.</p>
+
+            <!------------ FONT SIZES ------------->
+            <div class="font-size">
+                <h4>Tamanho da fonte</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!------------ PRIMARY COLORS ------------->
+            <div class="color">
+                <h4>Cor</h4>
+                <div class="choose-color">
+                    <span class="color-1"></span>
+                    <span class="color-2 active"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!---------- BACKGROUND COLORS ------------>
+            <div class="background">
+                <h4>Fundo</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+
+
+    <script>
+        $('.nav ul li').click(function () {
+
+            $(this).addClass("active").siblings().removeClass('active');
+        })
+
+        const tabBtn = document.querySelectorAll('.nav ul li');
+        const tab = document.querySelectorAll('.tab');
+
+        function tabs(panelIndex) {
+            tab.forEach(function (node) {
+                node.style.display = 'none';
+            });
+            tab[panelIndex].style.display = 'block';
+        }
+        tabs(0);
+
+        let bio = document.querySelector('.bio');
+
+        function bioText() {
+            bio.oldText = bio.innerText;
+            bio.innerText = bio.innerText.substring(0, 100) + "...";
+            bio.innerHTML += "&nbsp;" + `<span onclick='addLenght()' id='see-more-bio'> Ver Mais </span>`;
+        }
+        bioText();
+    </script>
+    <script src="js/script_redeSocial.js"></script>
+</body>
+
+</html>
